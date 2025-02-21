@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link rel="stylesheet" href="./estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>DOM JS Y CSS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../Funciones/index.html" data-section="tema1">Funciones</a></li>
+            <li><a href="../DOM/index.html" data-section="tema2">DOM</a></li>
+            <li><a href="../DOMJSyCSS/index.html" data-section="tema3">DOM JS y CSS</a></li>
+            <li><a href="../Eventos/index.html" data-section="tema4">Eventos</a></li>
+            <li><a href="../DiseñoWebResponsivo/index.html" data-section="tema5">Diseño Web Responsivo</a></li>
+            <li><a href="../MediaQueries/index.html" data-section="tema6">Media Queries</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="tema1" class="content active">
+            <div class="container">
+                <div class="left">
+                    <h2>Ideas Principales</h2>
+                    <ul>
+                        <li>En javascript podemos utilizar la propiedad Style para manipular el estilo de un elemento
+                            HTML, o para crear uno de nuevo.
+                        </li>
+                        <li>Para cambiar el estilo de un elemento HTML se debe usar la siguiente sintaxis:
+                        </li>
+                        <li>
+                            La propiedad classList no es soportan en IE9 y versiones anteriores
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h2>Resumen</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <h4>Propiedad ClassList</h4>
+                            <br>
+                            La propiedad classiList devuelve los nombres de lase de un elemento.
+                            Esta propiedad es util para agregar, eliminar y alternar clases CSS en un elemento.
+                            La propiedad classList es solo lectura, sin embargo, puede modificarse
+                        </li><br>
+
+                        <li>
+                            <h4>classList.remove()</h4>
+                            <br>
+                            La propiedad classList mas el metodo remove elimina uno o mas nombres de clase de un elemento. Eliminar una clase que no existe, NO arroja un error
+                        </li><br>
+                        <li>
+                            <h4>classList.toggle()</h4>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <footer>
+                <img src="./Imagenes/que-es-dom.png" alt="Imagen del tema 1">
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
